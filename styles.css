@@ -25,14 +25,38 @@ body {
 #card-box {
     border-radius: 12px;
     overflow: hidden;
-    background-color: white;
+    font-family: var(--karla);
+    max-width: 700px;
+    box-shadow: 0 25px 40px rgba(0, 0, 0, 0.1);
 }
 
 .top-half-box {
     display: block;
     background-color: white;
-    padding: 2rem 2.5rem;
+    padding: 1.7rem 4.22rem 2rem 2.5rem;
 }
+
+.top-half-box h2 {
+    color: var(--teal500);
+    font-weight: 700;
+}
+
+.top-half-box #green-text {
+    color: var(--green400);
+    font-weight: 600;
+}
+
+.top-half-box p {
+    color: gray;
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 80%;
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+}
+
+
+
 
 .bottom-half-box {
     display: flex;
