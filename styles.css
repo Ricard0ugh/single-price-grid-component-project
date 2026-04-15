@@ -62,12 +62,12 @@ body {
 .bottom-half-left-box {
     background-color: var(--teal500);
     width: 50%;
-    padding: 2rem 3rem 1rem 2.5rem;
+    padding: 2.3rem 2.5rem 2rem 2.5rem;
 }
 
 .bottom-half-left-box h3 {
     color: white;
-    font-weight: 700;
+    font-weight: 500;
     margin-bottom: 0;
 }
 
@@ -86,6 +86,7 @@ body {
     color: var(--gray500);
     font-weight: 300;
     font-size: 1rem;
+    opacity: 80%;
 }
 
 .bottom-half-left-box #cost-description {
@@ -93,7 +94,7 @@ body {
     font-weight: 300;
     font-size: .93rem;
     margin-top: 0;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .bottom-half-left-box a {
@@ -108,7 +109,10 @@ body {
 
 }
 
-
+.bottom-half-left-box a:hover {
+    background-color: hsl(71, 58%, 30%);
+    transition: background-color .2s ease;
+}
 .bottom-half-right-box {
     background-color: var(--teal500);
     opacity: 78%;
@@ -116,6 +120,64 @@ body {
     padding: 2rem 3rem 2rem 2.5rem;
 }
 
+.bottom-half-right-box h3 {
+    color: white;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.bottom-half-right-box ul {
+    padding-left: 0rem;
+    text-decoration: none;
+    list-style: none;
+}
+
+.bottom-half-right-box li {
+    margin-bottom: 0.3rem;
+}
+
+.bottom-half-right-box a {
+    font-weight: 300;
+    color: white;
+    opacity: 70%;
+    text-decoration: none;
+}
+
+.bottom-half-right-box a:hover {
+    color: darkblue;
+    opacity: 90%;
+    border-bottom: 1px solid black;
+    transition: color .4s ease, border-bottom .4s;
+}
+
+@media (max-width: 600px) {
+    .bottom-half-box {
+        flex-direction: column;
+    }
+
+    .bottom-half-left-box,
+    .bottom-half-right-box {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 1.8rem 1.5rem;
+    }
+
+    .bottom-half-left-box a {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+        padding: 1rem 0;
+        font-size: 1rem;
+        font-weight: 700;
+        border-radius: 6px;
+        line-height: 1.2;
+    }
+
+    .bottom-half-left-box #cost-description {
+        margin-bottom: 1.75rem;
+    }
+}
 
 
 
