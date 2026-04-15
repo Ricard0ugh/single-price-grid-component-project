@@ -1,0 +1,28 @@
+
+:root {
+    --teal500:  hsl(179, 62%, 43%);
+    --green400: hsl(71, 73%, 54%);
+
+    --teal100: hsl(204, 43%, 93%);
+    --gray500: hsl(217, 100%, 89%);
+
+
+    --karla: "Karla", sans-serif;
+
+}
+
+
+
+
+
+/* 
+### Body Copy
+
+- Font size: 16px
+
+### Font
+
+- Family: [Karla]
+- Weights: 400, 700
+*/ 
+a
