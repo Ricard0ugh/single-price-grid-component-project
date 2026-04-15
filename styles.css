@@ -11,6 +11,47 @@
 
 }
 
+body {
+    background-color: var(--teal100);
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+#card-box {
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.top-half-box {
+    display: block;
+    background-color: white;
+    padding: 2rem 2.5rem;
+}
+
+.bottom-half-box {
+    display: flex;
+}
+
+.bottom-half-left-box {
+    background-color: var(--teal500);
+    width: 50%;
+}
+
+.bottom-half-right-box {
+    background-color: var(--teal500);
+    opacity: 78%;
+    width: 50%;
+}
+
+
+
+
 
 
 
